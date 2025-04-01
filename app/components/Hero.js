@@ -7,9 +7,9 @@ import React from 'react'
 // ]
 const stats = [
   { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
+  { name: 'Skilled Professionals', value: '300+' },
+  { name: 'Countries Export', value: '40+' },
+  { name: 'Metric Tons Per Month Capacity', value: '45,000+' },
 ]
 export default function Hero() {
   return (
@@ -23,7 +23,7 @@ export default function Hero() {
 
 
 
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center flex-col">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Buy Fasteners Cheap</h2>
             {/* <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">

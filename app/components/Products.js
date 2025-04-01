@@ -11,7 +11,7 @@ export default function Products() {
 
             <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                 <div className="group relative">
-                    <img src="Bolts.jpg" alt="#"
+                    <img src="assets/Bolts.jpg" alt="#"
                         className="aspect-square w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-auto lg:h-80"/>
                     <div className="mt-4 flex justify-between">
                         <div>
@@ -29,7 +29,7 @@ export default function Products() {
                 </div>
 
                 <div className="group relative">
-                    <img src="Bolts.jpg" alt="#"
+                    <img src="assets/Bolts.jpg" alt="#"
                         className="aspect-square w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-auto lg:h-80"/>
                     <div className="mt-4 flex justify-between">
                         <div>
@@ -46,7 +46,7 @@ export default function Products() {
                     </div>
                 </div>
                 <div className="group relative">
-                    <img src="Bolts.jpg" alt="#"
+                    <img src="assets/Bolts.jpg" alt="#"
                         className="aspect-square w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-auto lg:h-80"/>
                     <div className="mt-4 flex justify-between">
                         <div>
@@ -63,7 +63,7 @@ export default function Products() {
                     </div>
                 </div>
                 <div className="group relative">
-                    <img src="Bolts.jpg" alt="#"
+                    <img src="assets/Bolts.jpg" alt="#"
                         className="aspect-square w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-auto lg:h-80"/>
                     <div className="mt-4 flex justify-between">
                         <div>
@@ -80,7 +80,7 @@ export default function Products() {
                     </div>
                 </div>
                 <div className="group relative">
-                    <img src="Bolts.jpg" alt="#"
+                    <img src="assets/Bolts.jpg" alt="#"
                         className="aspect-square w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-auto lg:h-80"/>
                     <div className="mt-4 flex justify-between">
                         <div>
