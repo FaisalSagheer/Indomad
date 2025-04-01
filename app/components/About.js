@@ -41,7 +41,7 @@ export default function About() {
                     {features.map((feature) => (
                       <div key={feature.name} className="relative pl-9">
                         <dt className="inline font-semibold text-gray-900">
-                          <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600" />
+                          <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-[#23c69a]" />
                           {feature.name}
                         </dt>{' '}
                         <dd className="inline">{feature.description}</dd>
