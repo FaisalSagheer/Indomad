@@ -14,7 +14,7 @@ import Testimonials from '../components/Testimonials'
 
 export default function Home() {
     return (
-        <>
+        <div className=''>
             <Info />
             <Navbar />
             <Hero />
@@ -26,6 +26,6 @@ export default function Home() {
             <Testimonials/>
             <Form />
             <Footer/>
-        </>
+        </div>
     )
 }

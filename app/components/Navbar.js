@@ -54,9 +54,9 @@ const Navbar = () => {
               <a href="#services" className="text-gray-800 hover:text-blue-600 font-medium">Why Choose Us?</a>
               <a href="#contact" className="text-gray-800 hover:text-blue-600 font-medium">Contact</a>
               <div className="flex items-center space-x-4 pt-4">
-                <button className="text-gray-800 hover:text-blue-600">
+                {/* <button className="text-gray-800 hover:text-blue-600">
                   <FiShoppingCart size={20} />
-                </button>
+                </button> */}
                 <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full">
                   Get Quote
                 </button>
