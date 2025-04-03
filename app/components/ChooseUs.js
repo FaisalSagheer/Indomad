@@ -4,32 +4,32 @@ import { FiCheckCircle, FiAward, FiShield, FiTruck, FiHeadphones, FiDollarSign }
 const ChooseUs = () => {
   const features = [
     {
-      icon: <FiAward className="w-8 h-8 text-blue-600" />,
+      icon: <FiAward className="w-8 h-8 text-blue-700" />,
       title: "Industry Experience",
       description: "With over 25 years in the fastener industry, we bring unmatched expertise to every project."
     },
     {
-      icon: <FiCheckCircle className="w-8 h-8 text-blue-600" />,
+      icon: <FiCheckCircle className="w-8 h-8 text-blue-700" />,
       title: "Quality Assurance",
       description: "All our products undergo rigorous quality checks to meet international standards."
     },
     {
-      icon: <FiShield className="w-8 h-8 text-blue-600" />,
+      icon: <FiShield className="w-8 h-8 text-blue-700" />,
       title: "Certified Products",
       description: "Our fasteners are ISO 9001 certified and comply with DIN, ANSI, and other global standards."
     },
     {
-      icon: <FiTruck className="w-8 h-8 text-blue-600" />,
+      icon: <FiTruck className="w-8 h-8 text-blue-700" />,
       title: "Reliable Delivery",
       description: "Just-in-time delivery system ensures you get products when you need them."
     },
     {
-      icon: <FiDollarSign className="w-8 h-8 text-blue-600" />,
+      icon: <FiDollarSign className="w-8 h-8 text-blue-700" />,
       title: "Competitive Pricing",
       description: "Direct manufacturer relationships allow us to offer the best prices without compromising quality."
     },
     {
-      icon: <FiHeadphones className="w-8 h-8 text-blue-600" />,
+      icon: <FiHeadphones className="w-8 h-8 text-blue-700" />,
       title: "24/7 Support",
       description: "Our technical team is always available to assist with product selection and application advice."
     }
@@ -61,22 +61,22 @@ const ChooseUs = () => {
 
         {/* Additional Value Propositions */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-blue-600 text-white p-8 rounded-lg">
+          <div className="bg-blue-700 text-white p-8 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Custom Solutions</h3>
             <p className="mb-6">
               We specialize in manufacturing custom fasteners tailored to your specific requirements and technical drawings.
             </p>
-            <button className="bg-white text-blue-600 px-6 py-2 rounded font-medium hover:bg-gray-100">
+            <button className="bg-white text-blue-700 px-6 py-2 rounded font-medium hover:bg-gray-100">
               Request Custom Quote
             </button>
           </div>
 
-          <div className="bg-gray-800 text-white p-8 rounded-lg">
+          <div className="bg-black text-white p-8 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Bulk Order Discounts</h3>
             <p className="mb-6">
               Enjoy special pricing and additional benefits when you place large quantity orders with us.
             </p>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded font-medium hover:bg-blue-700">
+            <button className="bg-blue-700 text-white px-6 py-2 rounded font-medium hover:bg-blue-700">
               Enquire About Bulk Orders
             </button>
           </div>

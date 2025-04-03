@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="text-2xl font-bold text-gray-800">
-              <img src='assets/HeaderLogo.png' alt='IndoNAD' />
+              <img src='HeaderLogo.png' alt='IndoNAD' className='h-12 w-full'/>
             </a>
           </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             {/* <button className="text-gray-800 hover:text-blue-600">
               <FiShoppingCart size={20} />
             </button> */}
-            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600">
               Get Quote
             </button>
           </div>

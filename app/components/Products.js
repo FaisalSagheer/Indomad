@@ -44,7 +44,7 @@ const ProductsSection = () => {
     <section id="products" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Products</h2>
+          <h2 className="text-3xl font-bold text-black mb-4">Our Products</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We offer a wide range of high-quality fasteners for various industrial applications. Our products meet international quality standards.
           </p>
@@ -59,9 +59,9 @@ const ProductsSection = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.name}</h3>
+                <h3 className="text-xl font-semibold text-black mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <button className="text-blue-600 hover:text-blue-800 font-medium">
+                <button className="text-blue-700 hover:text-blue-600 font-medium">
                   View Details →
                 </button>
               </div>

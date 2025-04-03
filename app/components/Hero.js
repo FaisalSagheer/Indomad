@@ -31,16 +31,16 @@ const Hero = () => {
         <div className="container mx-auto">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Premium Quality <span className="text-blue-400">Fasteners</span> for Industrial Applications
+              Premium Quality <span className="text-blue-600">Fasteners</span> for Industrial Applications
             </h1>
             <p className="text-xl mb-8">
               We provide high-quality fasteners, nuts, bolts, and screws for various industries including construction, automotive, and manufacturing.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 font-medium">
+              <button className="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-600 font-medium">
                 Explore Products
               </button>
-              <button className="bg-white text-blue-600 px-6 py-3 rounded hover:bg-gray-100 font-medium">
+              <button className="bg-white text-blue-700 px-6 py-3 rounded hover:bg-gray-100 font-medium">
                 Request Catalog
               </button>
             </div>
@@ -53,20 +53,20 @@ const Hero = () => {
         <div className="container mx-auto px-4 -mt-16">
           <div className="bg-white rounded-lg shadow-md p-6 grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-blue-600 mb-2">25+</h3>
-              <p className="text-gray-600">Years Experience</p>
+              <h3 className="text-3xl font-bold text-blue-700 mb-2">25+</h3>
+              <p className="text-black">Years Experience</p>
             </div>
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-blue-600 mb-2">500+</h3>
-              <p className="text-gray-600">Products</p>
+              <h3 className="text-3xl font-bold text-blue-700 mb-2">500+</h3>
+              <p className="text-black">Products</p>
             </div>
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-blue-600 mb-2">1000+</h3>
-              <p className="text-gray-600">Happy Clients</p>
+              <h3 className="text-3xl font-bold text-blue-700 mb-2">1000+</h3>
+              <p className="text-black">Happy Clients</p>
             </div>
             <div className="text-center">
-              <h3 className="text-3xl font-bold text-blue-600 mb-2">24/7</h3>
-              <p className="text-gray-600">Customer Support</p>
+              <h3 className="text-3xl font-bold text-blue-700 mb-2">24/7</h3>
+              <p className="text-black">Customer Support</p>
             </div>
           </div>
         </div>

@@ -20,17 +20,17 @@ const Form = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="text-blue-600 mt-1 mr-4">
+                  <div className="text-blue-700 mt-1 mr-4">
                     <FiMapPin size={20} />
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800">Address</h4>
-                    <p className="text-gray-600">123 Industrial Area, Phase II, New Delhi, India - 110020</p>
+                    <p className="text-gray-600">123 Industrial Area</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="text-blue-600 mt-1 mr-4">
+                  <div className="text-blue-700 mt-1 mr-4">
                     <FiPhone size={20} />
                   </div>
                   <div>
@@ -41,7 +41,7 @@ const Form = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="text-blue-600 mt-1 mr-4">
+                  <div className="text-blue-700 mt-1 mr-4">
                     <FiMail size={20} />
                   </div>
                   <div>
@@ -52,7 +52,7 @@ const Form = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="text-blue-600 mt-1 mr-4">
+                  <div className="text-blue-700 mt-1 mr-4">
                     <FiClock size={20} />
                   </div>
                   <div>
@@ -124,7 +124,7 @@ const Form = () => {
 
                 <button 
                   type="submit" 
-                  className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 font-medium w-full md:w-auto"
+                  className="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-600 font-medium w-full md:w-auto"
                 >
                   Send Message
                 </button>
