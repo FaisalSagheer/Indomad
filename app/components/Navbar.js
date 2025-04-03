@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiMenu, FiX, FiPhone, FiMail, FiShoppingCart } from 'react-icons/fi';
+import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="text-2xl font-bold text-gray-800">
-              <span className="text-blue-600">FAST</span>ENER
+              <img src='assets/HeaderLogo.png' alt='IndoNAD' />
             </a>
           </div>
 

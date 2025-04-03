@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About Company */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">FASTENER CO.</h3>
+            <img className="mb-6" src='assets/FooterLogo.jpg' alt='Footer'/>
             <p className="text-gray-400 mb-6">
               Leading manufacturer and supplier of high-quality industrial fasteners since 1995.
             </p>
@@ -83,7 +83,7 @@ const Footer = () => {
               <input 
                 type="email" 
                 placeholder="Your email" 
-                className="px-4 py-2 w-full rounded-l focus:outline-none text-gray-800"
+                className="px-4 py-2 w-full rounded-l focus:outline-none text-gray-100"
               />
               <button 
                 type="submit" 

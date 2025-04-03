@@ -21,7 +21,7 @@ const Hero = () => {
             src="/videos/fasteners.webm" 
             type="video/webm" 
           /> */}
-          Your browser does not support HTML5 video.
+          Your browser does not support video.
         </video>
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
