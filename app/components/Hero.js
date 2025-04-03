@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-      <video 
+        {/* <video 
           autoPlay 
           loop 
           muted 
@@ -14,15 +14,22 @@ const Hero = () => {
           poster="/videos/fallback.jpg" // Add a fallback image
         >
           <source 
-            src="assets/HeroVideo.mp4" 
-            type="video/mp4" 
+            src="https://youtu.be/f7qkHxG1v1E" 
+            type="video" 
           />
-          {/* <source 
+          <source 
             src="/videos/fasteners.webm" 
             type="video/webm" 
-          /> */}
+          />
           Your browser does not support video.
-        </video>
+        </video> */}
+        <iframe
+          className="w-full h-full object-contain"
+          src="https://www.youtube.com/embed/f7qkHxG1v1E?autoplay=1&mute=1&loop=1&playlist=f7qkHxG1v1E"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="YouTube video"
+        ></iframe>
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
 
