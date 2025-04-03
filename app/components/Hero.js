@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative overflow-hidden">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pb-[56.25%] overflow-hidden">
         {/* <video 
           autoPlay 
           loop 
@@ -24,7 +24,7 @@ const Hero = () => {
           Your browser does not support video.
         </video> */}
         <iframe
-          className="w-full h-full object-contain"
+          className="w-full h-full absolute top-0 left-0"
           src="https://www.youtube.com/embed/f7qkHxG1v1E?autoplay=1&mute=1&loop=1&playlist=f7qkHxG1v1E"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
