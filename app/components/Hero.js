@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="container mx-auto">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Premium quality solutions for industrial applications <span className="text-blue-600">Fasteners</span> for Industrial Applications
+              Premium quality solutions for industrial applications
             </h1>
             <p className="text-xl mb-8">
             high-quality fasteners and components
