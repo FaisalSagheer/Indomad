@@ -14,8 +14,9 @@ import ServicesSection from '../components/Service'
 
 export default function Home() {
     return (
-        <div className=''>
-            <Info />
+        <div>
+
+            {/* <Info /> */}
             <Navbar />
             <Hero />
             {/* <Stats /> */}
