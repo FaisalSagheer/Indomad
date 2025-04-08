@@ -61,8 +61,8 @@ const Form = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800">Email</h4>
-                    <p className="text-gray-600">sales@fastenerco.com</p>
-                    <p className="text-gray-600">support@fastenerco.com</p>
+                    <p className="text-gray-600">sales@IndoNad.com</p>
+                    <p className="text-gray-600">support@IndoNad.com</p>
                   </div>
                 </div>
 
