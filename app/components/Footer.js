@@ -97,7 +97,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Fastener Co. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} IndoNad Com. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
