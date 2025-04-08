@@ -38,10 +38,10 @@ const Hero = () => {
         <div className="container mx-auto">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Premium Quality <span className="text-blue-600">Fasteners</span> for Industrial Applications
+              Premium quality solutions for industrial applications <span className="text-blue-600">Fasteners</span> for Industrial Applications
             </h1>
             <p className="text-xl mb-8">
-              We provide high-quality fasteners, nuts, bolts, and screws for various industries including construction, automotive, and manufacturing.
+            high-quality fasteners and components
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <button className="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-600 font-medium">
