@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
 
       {/* Stats Bar */}
-      <div className="relative z-10">
+      {/* <div className="relative z-10">
         <div className="container mx-auto px-4 -mt-16">
           <div className="bg-white rounded-lg shadow-md p-6 grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -77,7 +77,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
