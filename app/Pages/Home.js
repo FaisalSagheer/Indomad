@@ -9,8 +9,8 @@ import Info from '../components/Info'
 import Footer from '../components/Footer'
 import ChooseUs from '../components/ChooseUs'
 import ProductsSection from '../components/Products'
-import Testimonials from '../components/Testimonials'
-// import ServicesSection from '../components/Service'
+// import Testimonials from '../components/Testimonials'
+import ServicesSection from '../components/Service'
 
 export default function Home() {
     return (
@@ -21,9 +21,9 @@ export default function Home() {
             {/* <Stats /> */}
             <About />
             <ProductsSection/>
-            {/* <ServicesSection/> */}
             <ChooseUs/>
-            <Testimonials/>
+            <ServicesSection/>
+            {/* <Testimonials/> */}
             <Form />
             <Footer/>
         </div>
