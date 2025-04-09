@@ -1,5 +1,7 @@
+'use client'
+
 import React, { useState } from 'react';
-import { FiMenu, FiX } from 'react-icons/fi';
+// import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +15,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a className="text-2xl font-bold text-gray-800">
-              <img src='HeaderLogo.png' alt='IndoNAD' className='h-14 w-72'/>
+              <img src='HeaderLogo.png' alt='IndoNAD' className='h-14 w-72' />
             </a>
           </div>
 
