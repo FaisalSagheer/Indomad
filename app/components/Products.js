@@ -61,19 +61,19 @@ const ProductsSection = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-black mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <button className="text-blue-700 hover:text-blue-600 font-medium">
+                {/* <button className="text-blue-700 hover:text-blue-600 font-medium">
                   View Details →
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="bg-blue-600 text-white px-8 py-3 rounded hover:bg-blue-700 font-medium">
             View All Products
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

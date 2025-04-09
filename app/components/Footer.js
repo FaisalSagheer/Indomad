@@ -29,7 +29,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-6">
               Leading manufacturer and supplier of high-quality industrial fasteners since 1995.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <FiFacebook size={20} />
               </a>
@@ -42,11 +42,11 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white">
                 <FiInstagram size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
@@ -57,10 +57,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Product Categories */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-semibold mb-6">Product Categories</h3>
             <ul className="space-y-3">
               {productCategories.map((category, index) => (
@@ -71,10 +71,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Newsletter */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-semibold mb-6">Newsletter</h3>
             <p className="text-gray-400 mb-4">
               Subscribe to our newsletter to get updates on new products and offers.
@@ -92,7 +92,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Copyright */}
