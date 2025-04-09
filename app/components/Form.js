@@ -19,7 +19,7 @@ const Form = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-6">Contact Information</h3>
 
               <div className="space-y-6">
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
                     <FiUser size={20} />
                   </div>
@@ -29,7 +29,7 @@ const Form = () => {
                     Warren Kane 
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
                     <FiMapPin size={20} />
@@ -61,12 +61,12 @@ const Form = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800">Email</h4>
-                    <p className="text-gray-600">sales@IndoNad.com</p>
-                    <p className="text-gray-600">support@IndoNad.com</p>
+                    <p className="text-gray-600">Info@IndoNad.com</p>
+                    {/* <p className="text-gray-600">support@IndoNad.com</p> */}
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
                     <FiClock size={20} />
                   </div>
@@ -75,7 +75,7 @@ const Form = () => {
                     <p className="text-gray-600">Monday - Friday: 9:00 - 18:00</p>
                     <p className="text-gray-600">Saturday: 9:00 - 14:00</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -18,23 +18,23 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          {/* <nav className="hidden md:flex space-x-8">
             <a href="/" className="text-gray-800 hover:text-blue-600 font-medium">Home</a>
             <a href="#about" className="text-gray-800 hover:text-blue-600 font-medium">About</a>
             <a href="#products" className="text-gray-800 hover:text-blue-600 font-medium">Products</a>
             <a href="#services" className="text-gray-800 hover:text-blue-600 font-medium">Why Choose Us?</a>
             <a href="#contact" className="text-gray-800 hover:text-blue-600 font-medium">Contact</a>
-          </nav>
+          </nav> */}
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          {/* <div className="md:hidden flex items-center">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-800 focus:outline-none">
               {isMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
-          </div>
+          </div> */}
 
           {/* Cart and Search */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className=" md:flex items-center space-x-4">
             {/* <button className="text-gray-800 hover:text-blue-600">
               <FiShoppingCart size={20} />
             </button> */}

@@ -7,9 +7,9 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           {/* About Image */}
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
-            <img 
-              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-              alt="About Our Company" 
+            <img
+              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="About Our Company"
               className="rounded-lg shadow-lg w-full"
             />
           </div>
@@ -18,10 +18,13 @@ const AboutSection = () => {
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold text-black mb-6">About Our Company</h2>
             <p className="text-gray-600 mb-6">
-              Established in 1995, Fastener Co. has been a trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners for various applications across multiple industries.
+              {/* Established in 1995, Fastener Co. has been a trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners for various applications across multiple industries. */}
+
+
+              In a world of manufacturing flaws and shipping delays the answer is clear. IndoNAD is quickly becoming the most trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners and hardware to meet the most stringent demands for various applications across multiple industries. IndoNAD provides reliable, high-quality solutions that meet the diverse needs of our clients while maintaining the highest standards of service and integrity. We strive to be the preferred supplier globally by continuously innovating and exceeding our customer expectations. When the cost of delays matter, count on IndoNAD to deliver.
             </p>
-            
-            <div className="mb-6">
+
+            {/* <div className="mb-6">
               <h3 className="text-xl font-semibold text-black mb-3">Our Mission</h3>
               <p className="text-gray-600">
                 To provide reliable, high-quality fastening solutions that meet the diverse needs of our clients while maintaining the highest standards of service and integrity.
@@ -37,7 +40,7 @@ const AboutSection = () => {
 
             <button className="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-600 font-medium">
               Read More
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

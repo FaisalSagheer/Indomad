@@ -43,14 +43,14 @@ const Hero = () => {
             <p className="text-xl mb-8">
               For various industries including construction, automotive, and manufacturing.
             </p>
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            {/* <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <button className="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-600 font-medium">
                 Explore Products
               </button>
               <button className="bg-white text-blue-700 px-6 py-3 rounded hover:bg-gray-100 font-medium">
                 Request Catalog
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
