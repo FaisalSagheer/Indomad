@@ -21,11 +21,11 @@ const Footer = () => {
 
   return (
     <footer className="bg-black text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About Company */}
           <div>
-            <img className='h-14 w-sm mb-6 -ml-0 lg:-ml-7' src='FooterLogo.jpg' alt='Footer'/>
+            <img className='h-14 w-72 mb-6 -ml-0 lg:-ml-7' src='FooterLogo.jpg' alt='Footer'/>
             <p className="text-gray-400 mb-6">
               Leading manufacturer and supplier of high-quality industrial fasteners.
             </p>
