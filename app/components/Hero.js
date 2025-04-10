@@ -11,7 +11,7 @@ const Hero = () => {
           loop 
           muted 
           playsInline
-          className="w-full h-[1000px] object-cover"
+          className="w-full h-full object-cover -pb-40"
         >
           <source 
             src="assets/HeroVideo.mp4" 
