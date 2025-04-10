@@ -44,7 +44,7 @@ const ProductsSection = () => {
     <section id="products" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-black mb-4">Products We Offer</h2>
+          <h2 className="text-3xl font-bold text-black mb-4 capitalize">a few of the products we offer</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We offer a wide range of high-quality fasteners for various industrial applications. Our products meet international quality standards.
           </p>
