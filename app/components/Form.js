@@ -1,9 +1,13 @@
-import React from 'react';
+'use client'
+
+
+import React, { forwardRef } from 'react';
 import { FiMapPin, FiPhone, FiMail, FiClock, FiUser } from 'react-icons/fi';
 
-const Form = () => {
+const Form = forwardRef((props,ref) => {
+
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
@@ -150,6 +154,6 @@ const Form = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Form;

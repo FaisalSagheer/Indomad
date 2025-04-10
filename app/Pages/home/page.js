@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Hero from '../../components/Hero'
 import Navbar from '../../components/Navbar'
 // import Stats from '../components/Stats'
@@ -7,17 +7,14 @@ import Form from '../../components/Form'
 // import Info from '../../components/Info'
 // import Products from '../components/Products'
 import Footer from '../../components/Footer'
-import ChooseUs from '../../components/ChooseUs'
 import ProductsSection from '../../components/Products'
-// import Testimonials from '../components/Testimonials'
-import ServicesSection from '../../components/Service'
-
 export default function Home() {
+    const contactRef = useRef(null)
     return (
         <div>
 
             {/* <Info /> */}
-            <Navbar />
+            <Navbar contactRef = {contactRef}/>
             <Hero />
             {/* <Stats /> */}
             <About />
@@ -25,7 +22,7 @@ export default function Home() {
             {/* <ChooseUs/> */}
             {/* <ServicesSection/> */}
             {/* <Testimonials/> */}
-            <Form />
+            <Form ref = {contactRef}/>
             <Footer/>
         </div>
     )

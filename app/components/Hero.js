@@ -4,39 +4,38 @@ const Hero = () => {
   return (
     <section className="relative overflow-hidden">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0 pb-[56.25%] overflow-hidden">
-        {/* <video 
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <video 
           autoPlay 
           loop 
           muted 
           playsInline
-          className="w-full h-full object-cover"
-          poster="/videos/fallback.jpg" // Add a fallback image
+          className="w-full h-[1000px] object-cover"
         >
           <source 
-            src="https://youtu.be/f7qkHxG1v1E" 
-            type="video" 
+            src="assets/HeroVideo.mp4" 
+            type="video/mp4" 
           />
-          <source 
+          {/* <source 
             src="/videos/fasteners.webm" 
             type="video/webm" 
-          />
+          /> */}
           Your browser does not support video.
-        </video> */}
-        <iframe
+        </video>
+        {/* <iframe
           className="w-full h-full absolute top-0 left-0"
           src="https://www.youtube.com/embed/f7qkHxG1v1E?autoplay=1&mute=1&loop=1&playlist=f7qkHxG1v1E"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           title="YouTube video"
-        ></iframe>
+        ></iframe> */}
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 py-32 px-4">
+      <div className="relative z-10 py-80 px-20">
         <div className="container mx-auto">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-2xl text-white absolute bottom-16 transition-all">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 capitalize">
             Premium quality<span className='text-blue-700'> solutions</span> for industrial applications
             </h1>

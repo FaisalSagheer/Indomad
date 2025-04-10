@@ -1,11 +1,26 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 // import { FiMenu, FiX } from 'react-icons/fi';
 
-const Navbar = () => {
+const Navbar = ({contactRef}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  // const contactRef = useRef(null)
+  // const scrollToSection = () => {
+  //   let element = contactRef.current;
+  //   if (element) {
+  //     element.scrollInToView({
+  //       behavior: 'smooth',
+  //       block: 'start'
+  //     })
+  //   }
+  // }
 
+  const scrollToSection = () => {
+    contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  
   return (
     <header className="bg-white shadow-md">
 
@@ -40,7 +55,7 @@ const Navbar = () => {
             {/* <button className="text-gray-800 hover:text-blue-600">
               <FiShoppingCart size={20} />
             </button> */}
-            <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600">
+            <button onClick={scrollToSection}  className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600">
               Contact Us
             </button>
           </div>
@@ -60,7 +75,7 @@ const Navbar = () => {
                   <FiShoppingCart size={20} />
                 </button> */}
                 <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full">
-                  Get Quote
+                  Contact Us
                 </button>
               </div>
             </nav>

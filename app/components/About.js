@@ -4,20 +4,20 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-20">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row ">
           {/* About Image */}
-          <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+          <div className="mb-10 md:mb-0 md:pr-20">
             <img
-              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              src="assets/about.jpg"
               alt="About Our Company"
-              className="rounded-lg shadow-lg w-full"
+              className="rounded-lg shadow-lg w-md"
             />
           </div>
 
           {/* About Content */}
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold text-black mb-6">About Our Company</h2>
-            <p className="text-gray-600 mb-6">
+            <h2 className="text-5xl font-bold text-black mb-6">About Our Company</h2>
+            <p className="text-gray-600 mb-6 text-lg">
               {/* Established in 1995, Fastener Co. has been a trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners for various applications across multiple industries. */}
 
 
