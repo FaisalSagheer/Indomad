@@ -1,3 +1,6 @@
+'use client'
+
+
 import React, { useRef } from 'react'
 import Hero from '../../components/Hero'
 import Navbar from '../../components/Navbar'
