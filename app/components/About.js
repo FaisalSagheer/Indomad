@@ -21,7 +21,7 @@ const AboutSection = () => {
               {/* Established in 1995, Fastener Co. has been a trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners for various applications across multiple industries. */}
 
 
-              In a world of manufacturing flaws and shipping delays the answer is clear. IndoNAD is quickly becoming the most trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners and hardware to meet the most stringent demands for various applications across multiple industries. IndoNAD provides reliable, high-quality solutions that meet the diverse needs of our clients while maintaining the highest standards of service and integrity. We strive to be the preferred supplier globally by continuously innovating and exceeding our customer expectations. When the cost of delays matter, count on IndoNAD to deliver.
+              In a world of manufacturing flaws and delays the answer is clear. IndoNAD is quickly becoming the most trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners and hardware to meet the most stringent demands for various applications across multiple industries. IndoNAD provides reliable, high-quality solutions that meet the diverse needs of our clients while maintaining the highest standards of service and integrity. We strive to be the preferred supplier globally by continuously innovating and exceeding our customer expectations. When the cost of delays matter, count on IndoNAD to deliver.
             </p>
 
             {/* <div className="mb-6">

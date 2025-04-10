@@ -41,7 +41,7 @@ const Navbar = () => {
               <FiShoppingCart size={20} />
             </button> */}
             <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600">
-              Get Quote
+              Contact Us
             </button>
           </div>
         </div>

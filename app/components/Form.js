@@ -30,7 +30,7 @@ const Form = () => {
                     </p>
                   </div>
                 </div> */}
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
                     <FiMapPin size={20} />
                   </div>
@@ -42,9 +42,9 @@ const Form = () => {
                       Salem, VA 24153
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
                     <FiPhone size={20} />
                   </div>
@@ -53,7 +53,7 @@ const Form = () => {
                     <p className="text-gray-600">Office: 540-389-7924</p>
                     <p className="text-gray-600">Cell: 540-580-4212</p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <div className="text-blue-700 mt-1 mr-4">
