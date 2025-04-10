@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 py-80 px-20">
+      <div className="relative z-10 py-80 px-30">
         <div className="container mx-auto">
           <div className="max-w-2xl text-white absolute bottom-16 transition-all">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 capitalize">

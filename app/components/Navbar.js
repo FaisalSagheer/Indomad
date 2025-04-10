@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navbar = ({contactRef}) => {
@@ -30,7 +30,7 @@ const Navbar = ({contactRef}) => {
           {/* Logo */}
           <div className="flex items-center">
             <a className="text-2xl font-bold text-gray-800">
-              <img src='HeaderLogo.png' alt='IndoNAD' className='h-14 w-72' />
+              <img src='HeaderLogo.png' alt='IndoNAD' className='h-14 w-68' />
             </a>
           </div>
 

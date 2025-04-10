@@ -16,7 +16,7 @@ const AboutSection = () => {
 
           {/* About Content */}
           <div className="md:w-1/2">
-            <h2 className="text-5xl font-bold text-black mb-6">About Our Company</h2>
+            <h2 className="text-5xl font-bold text-black mb-10">About Our Company</h2>
             <p className="text-gray-600 mb-6 text-lg">
               {/* Established in 1995, Fastener Co. has been a trusted name in the industrial fastener industry. We specialize in manufacturing and supplying high-quality fasteners for various applications across multiple industries. */}
 
