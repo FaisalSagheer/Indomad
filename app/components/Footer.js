@@ -27,7 +27,7 @@ const Footer = () => {
           <div>
             <img className='h-14 w-sm mb-6 -ml-0 lg:-ml-7' src='FooterLogo.jpg' alt='Footer'/>
             <p className="text-gray-400 mb-6">
-              Leading manufacturer and supplier of high-quality industrial fasteners since 1995.
+              Leading manufacturer and supplier of high-quality industrial fasteners.
             </p>
             {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
